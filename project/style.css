@@ -1,0 +1,17 @@
+.highlight {
+  border-radius: 0.4rem;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.bold {
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+.blue {
+  background-color: DarkTurquoise;
+}
+.red {
+  background-color: Red;
+}
