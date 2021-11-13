@@ -14,13 +14,6 @@ The project basically classifies text input based on context as abusive or non a
 - Highly Biased 
 - Huge number of Duplicates
 
-#### Team members:
-- Ch V Subramaniyam
-- Nikitha S
-- Bommu Reddy
-- Rakesh Potti
-- Anoop Alexander
-- Vignesh R Babu
 
 ## How to Navigate through this project:
 
