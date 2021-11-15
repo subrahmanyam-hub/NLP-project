@@ -7,7 +7,7 @@ import re
 
 # CSS Design
 from load_css import local_css
-local_css(r"style.css")
+#local_css(r"style.css")
 
 # For NLP & Preprocessing
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
