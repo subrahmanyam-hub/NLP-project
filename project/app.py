@@ -78,21 +78,21 @@ user_input = st.text_area("Enter content to check for abuse", "")
 @st.cache(allow_output_mutation=True)
 def load_ml(model):
     if model == 'Logistic Regression':
-        return joblib.load('https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/1gsLR.sav')
+        return joblib.load('subrahmanyam-hub/NLP-project/blob/main/project/s1gsLR.sav')
     elif model == 'LinearSVC':
-        return joblib.load('https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/2gsLSVC.sav')
+        return joblib.load('subrahmanyam-hub/NLP-project/blob/main/project/2gsLSVC.sav')
     elif model == 'Multinomial Naive Bayes':
-        return joblib.load('https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/3gsMNB.sav')
+        return joblib.load('subrahmanyam-hub/NLP-project/blob/main/project/3gsMNB.sav')
     elif model == 'Random Forest':
-        return joblib.load('https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/4gsRFC.sav')
+        return joblib.load('subrahmanyam-hub/NLP-project/blob/main/project/4gsRFC.sav')
     elif model == 'XGBoost':
-        return joblib.load('https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/5gsXGB.sav')
+        return joblib.load('subrahmanyam-hub/NLP-project/blob/main/project/5gsXGB.sav')
     elif model == 'Perceptron':
-        return joblib.load('https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/6gsPPT.sav')
+        return joblib.load('subrahmanyam-hub/NLP-project/blob/main/project/6gsPPT.sav')
     elif model == 'Support Vector Machine':
-        return joblib.load('https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/7gsSVMC.sav')
+        return joblib.load('subrahmanyam-hub/NLP-project/blob/main/project/7gsSVMC.sav')
     elif model == 'Voting Classifier':
-        return joblib.load('https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/8Ensemble.sav')
+        return joblib.load('subrahmanyam-hub/NLP-project/blob/main/project/8Ensemble.sav')
 
 
 
