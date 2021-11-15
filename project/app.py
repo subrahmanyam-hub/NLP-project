@@ -7,7 +7,7 @@ import re
 
 # CSS Design
 from load_css import local_css
-local_css("style.css")
+local_css("https://github.com/subrahmanyam-hub/NLP-project/blob/main/project/style.css")
 
 # For NLP & Preprocessing
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
