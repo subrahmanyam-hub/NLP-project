@@ -177,7 +177,7 @@ def predictor_bert(text):
         param.requires_grad = False
     model_bert = BERT_Arch(bert)
     model_bert = model_bert.to(device)
-    path = r'C:\Users\subra\Downloads\project\saved_weights1.pt'
+    path = r'saved_weights1.pt'
     model_bert.load_state_dict(torch.load(path, map_location=torch.device('cpu')))
     max_seq_len = 35
     # tokenize and encode sequences in the test set1
