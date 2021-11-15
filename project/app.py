@@ -78,21 +78,21 @@ user_input = st.text_area("Enter content to check for abuse", "")
 @st.cache(allow_output_mutation=True)
 def load_ml(model):
     if model == 'Logistic Regression':
-        return joblib.load('deployment/ml_models/1gsLR.sav')
+        return joblib.load('1gsLR.sav')
     elif model == 'LinearSVC':
-        return joblib.load('deployment/ml_models/2gsLSVC.sav')
+        return joblib.load('2gsLSVC.sav')
     elif model == 'Multinomial Naive Bayes':
-        return joblib.load('deployment/ml_models/3gsMNB.sav')
+        return joblib.load('3gsMNB.sav')
     elif model == 'Random Forest':
-        return joblib.load('deployment/ml_models/4gsRFC.sav')
+        return joblib.load('4gsRFC.sav')
     elif model == 'XGBoost':
-        return joblib.load('deployment/ml_models/5gsXGB.sav')
+        return joblib.load('5gsXGB.sav')
     elif model == 'Perceptron':
-        return joblib.load('deployment/ml_models/6gsPPT.sav')
+        return joblib.load('6gsPPT.sav')
     elif model == 'Support Vector Machine':
-        return joblib.load('deployment/ml_models/7gsSVMC.sav')
+        return joblib.load('7gsSVMC.sav')
     elif model == 'Voting Classifier':
-        return joblib.load('deployment/ml_models/8Ensemble.sav')
+        return joblib.load('8Ensemble.sav')
 
 
 
